@@ -1,12 +1,12 @@
 {
     "chain_name": "crossfi",
-    "registry_name": "crossfi-testnet",
+    "registry_name": "crossfi",
     "api": [
         {"provider": "CryptoNodeID", "address": "https://crossfi-testnet-api.cryptonode.id"},
         {"provider": "ITRocket", "address": "https://crossfi-testnet-api.itrocket.net"}
     ],
     "rpc": [
-        {"provider": "CryptoNodeID", "address": "https://crossfi-testnet-rpc.cryptonode.id"},
+        {"provider": "CryptoNodeID", "address": "https://crossfi-testnet-rpc.cryptonode.id"}, 
         {"provider": "ITRocket", "address": "https://crossfi-testnet-rpc.itrocket.net"}
     ],
     "sdk_version": "0.46.13",
@@ -18,7 +18,7 @@
         "base": "mpx",
         "symbol": "PX",
         "exponent": "18",
-        "coingecko_id": "crossfi", 
+        "coingecko_id": "", 
         "logo": "/logos/crossfi.jpg"
     }]
 }
