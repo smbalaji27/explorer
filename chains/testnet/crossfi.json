@@ -1,51 +1,24 @@
 {
-	"chainId": "crossfi-evm-testnet-1",
-	"chainName": "crossfi",
-	"rpc": "https://crossfi-testnet-rpc.cryptonode.id",
-	"rest": "https://crossfi-testnet-api.cryptonode.id",
-	"bip44": {
-		"coinType": 60
-	},
-	"coinType": 60,
-	"bech32Config": {
-		"bech32PrefixAccAddr": "mx",
-		"bech32PrefixAccPub": "mxpub",
-		"bech32PrefixValAddr": "mxvaloper",
-		"bech32PrefixValPub": "mxvaloperpub",
-		"bech32PrefixConsAddr": "mxvalcons",
-		"bech32PrefixConsPub": "mxvalconspub"
-	},
-	"currencies": [
-		{
-			"coinDenom": "PX",
-			"coinMinimalDenom": "mpx",
-			"coinDecimals": 18,
-			"coinGeckoId": "unknown"
-		}
-	],
-	"feeCurrencies": [
-		{
-			"coinDenom": "PX",
-			"coinMinimalDenom": "mpx",
-			"coinDecimals": 18,
-			"coinGeckoId": "unknown",
-			"gasPriceStep": {
-				"low": 0.01,
-				"average": 0.025,
-				"high": 0.03
-			}
-		}
-	],
-	"gasPriceStep": {
-		"low": 0.01,
-		"average": 0.025,
-		"high": 0.03
-	},
-	"stakeCurrency": {
-		"coinDenom": "PX",
-		"coinMinimalDenom": "mpx",
-		"coinDecimals": 18,
-		"coinGeckoId": "unknown"
-	},
-	"features": []
+    "chain_name": "crossfi",
+    "registry_name": "crossfi-testnet",
+    "api": [
+        {"provider": "CryptoNodeID", "address": "https://crossfi-testnet-api.cryptonode.id"},
+        {"provider": "ITRocket", "address": "https://crossfi-testnet-api.itrocket.net"}
+    ],
+    "rpc": [
+        {"provider": "CryptoNodeID", "address": "https://crossfi-testnet-rpc.cryptonode.id"},
+        {"provider": "ITRocket", "address": "https://crossfi-testnet-rpc.itrocket.net"}
+    ],
+    "sdk_version": "0.46.13",
+    "coin_type": "60",
+    "min_tx_fee": "40000",
+    "addr_prefix": "mx",
+    "logo": "/logos/crossfi.jpg",
+    "assets": [{
+        "base": "mpx",
+        "symbol": "PX",
+        "exponent": "18",
+        "coingecko_id": "crossfi", 
+        "logo": "/logos/crossfi.jpg"
+    }]
 }
