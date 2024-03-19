@@ -9,7 +9,8 @@
         {"provider": "CryptoNodeID", "address": "https://crossfi-testnet-rpc.cryptonode.id"}, 
         {"provider": "ITRocket", "address": "https://crossfi-testnet-rpc.itrocket.net"}
     ],
-    "sdk_version": "0.46.13",
+    "sdk_version": "0.47.6",
+    "keplr_features": ["eth-address-gen", "eth-key-sign"],
     "coin_type": "60",
     "min_tx_fee": "5000000000000000",
     "addr_prefix": "mx",
@@ -18,7 +19,7 @@
         "base": "mpx",
         "symbol": "MPX",
         "exponent": "18",
-        "coingecko_id": "", 
+        "coingecko_id": "crossfi", 
         "logo": "/logos/crossfi.jpg"
     }]
 }
