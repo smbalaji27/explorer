@@ -2,12 +2,10 @@
     "chain_name": "crossfi",
     "registry_name": "crossfi",
     "api": [
-        {"provider": "CryptoNodeID", "address": "https://crossfi-testnet-api.cryptonode.id"},
-        {"provider": "ITRocket", "address": "https://crossfi-testnet-api.itrocket.net"}
+        {"provider": "CryptoNodeID", "address": "https://crossfi-testnet-api.cryptonode.id"}
     ],
     "rpc": [
-        {"provider": "CryptoNodeID", "address": "https://crossfi-testnet-rpc.cryptonode.id"}, 
-        {"provider": "ITRocket", "address": "https://crossfi-testnet-rpc.itrocket.net"}
+        {"provider": "CryptoNodeID", "address": "https://crossfi-testnet-rpc.cryptonode.id"}
     ],
     "sdk_version": "0.47.6",
     "keplr_features": ["eth-address-gen", "eth-key-sign"],

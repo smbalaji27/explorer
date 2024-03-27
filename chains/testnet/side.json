@@ -3,13 +3,11 @@
     "registry_name": "SIDE",
     "api": [
         {"provider": "CryptoNodeID", "address": "https://side-testnet-api.cryptonode.id"},
-        {"provider": "SideOne", "address": "https://testnet-rest.side.one"}, 
-        {"provider": "NodeSync", "address": "https://api.side-testnet.nodesync.top"}
+        {"provider": "SideOne", "address": "https://testnet-rest.side.one"}
     ], 
     "rpc": [
         {"provider": "CryptoNodeID", "address": "https://side-testnet-rpc.cryptonode.id"},
-        {"provider": "SideOne", "address": "https://testnet-rpc.side.one"}, 
-        {"provider": "NodeSync", "address": "https://rpc.side-testnet.nodesync.top"}
+        {"provider": "SideOne", "address": "https://testnet-rpc.side.one"}
     ],
     "sdk_version": "0.47.4",
     "coin_type": "118",
