@@ -15,7 +15,7 @@
     "logo": "/logos/crossfi.jpg",
     "assets": [{
         "base": "mpx",
-        "symbol": "PX",
+        "symbol": "MPX",
         "exponent": "18",
         "coingecko_id": "crossfi", 
         "logo": "/logos/crossfi.jpg"
