@@ -12,12 +12,12 @@
     "coin_type": "60",
     "min_tx_fee": "5000000000000000",
     "addr_prefix": "mx",
-    "logo": "/logos/crossfi.jpg",
+    "logo": "/logos/crossfi.png",
     "assets": [{
         "base": "mpx",
         "symbol": "MPX",
         "exponent": "18",
         "coingecko_id": "crossfi-2", 
-        "logo": "/logos/crossfi.jpg"
+        "logo": "/logos/crossfi.png"
     }]
 }
