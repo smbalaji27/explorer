@@ -1,0 +1,23 @@
+{
+    "chain_name": "0G-Testnet",
+    "registry_name": "0G-Testnet",
+    "api": [
+        {"provider": "BlocksNetwork", "address": "https://testnet.0g-api.blocksnetwork.xyz"}
+    ],
+    "rpc": [
+        {"provider": "BlocksNetwork", "address": "https://testnet.0g-rpc.blocksnetwork.xyz"}
+    ],
+    "sdk_version": "0.47.6",
+    "keplr_features": ["eth-address-gen", "eth-key-sign"],
+    "coin_type": "118",
+    "min_tx_fee": "500000",
+    "addr_prefix": "0g",
+    "logo": "/logos/zg-logo.png",
+    "assets": [{
+        "base": "ua0gi",
+        "symbol": "a0gi",
+        "exponent": "6",
+        "coingecko_id": "", 
+        "logo": "/logos/zg-logo.png"
+    }]
+}
